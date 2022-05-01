@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    width: 100%;
+}
+form{
+    width: 100%;
+    max-width: 500px;
+    margin: 100px auto;
+    border: solid 1px #edd2ba;
+    padding: 20px;
+    background-color: #edd2ba;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    border: solid 1px #d28371;
+    margin-bottom: 20px;
+    outline: none;
+}
+input:hover{
+    border: solid 1px #edd2ba;
+    transition: 0.5s;
+}
+button{
+    width: 30%;
+    padding: 10px;
+    border: solid 1px #d28371;
+    background: #d28371;
+    color: #1f0f0a;
+    cursor: pointer;
+    outline: none;  
+}
+button:hover{
+    border: solid 1px #edd2ba;
+    transition: 0.5s;
+    color: #edd2ba;
+}
+.registro{
+    width: 100%;
+    max-width: fit-content;
+    text-align: center;
+    margin-top: 20px;
+    border: solid 3px #edd2ba;
+    border-collapse: collapse;
+    margin: auto;
+}
+.registro thead{
+    border-bottom: solid 1px #2f1009;
+    background-color: #edd2ba;
+    color: #2f1009;
+}
+.registro thead tr th{
+    padding: 10px 15px 10px 15px;   
+}
+.registro tbody tr td{
+    padding: 7px 15px 7px 15px;   
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+span{
+    color: #2f1009;
+}
+span:hover{
+    color: #edd2ba;
+    transition: 0.5s;
+}
